@@ -1,5 +1,5 @@
-import { platform, release, arch, totalmem, freemem, cpus, uptime, homedir } 'node:os'
-//import os from 'node:os';
+import * as os from 'node:os';
+//import { platform, release, arch, totalmem, freemem, cpus, uptime, homedir } from 'node:os';
 
 console.log('Operating System:');
 console.log('------------------');
