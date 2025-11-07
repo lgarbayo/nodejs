@@ -13,9 +13,8 @@ console.log(globalThis); //variable global en toda nuestra aplicacion
 globalThis.console.log("This is a message from globalThis console.");
 */
 
-//VAMOS A UTILIZAR EL PATRÓN DE DISEÑO : MÓDULO
-//COMMONJS require module
+// VAMOS A UTILIZAR EL PATRÓN DE DISEÑO : MÓDULO
+// COMMONJS require module
 
-const { sum } = require('./sum.js'); //importar la función sum desde el archivo sum.js
-console.log(sum(5,3));
-
+const { sum } = require('./sum.js') // importar la función sum desde el archivo sum.js
+console.log(sum(5, 3))

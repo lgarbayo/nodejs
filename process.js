@@ -8,8 +8,8 @@ console.log(process.argv) // Command line arguments
 // control process and exit
 process.exit(1) // Exit with code 1
 
-//escucha el evento exit
-// process.on('exit', (code) => { 
+// escucha el evento exit
+// process.on('exit', (code) => {
 //    console.log(`About to exit with code: ${code}`)
 // })
 

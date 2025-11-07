@@ -1,6 +1,6 @@
-function sum (a,b) { return a + b;}
+function sum (a, b) { return a + b }
 
-//COMMONJS export module
+// COMMONJS export module
 module.exports = {
-    sum //exportar la función sum para que pueda ser utilizada en otros archivos
+  sum // exportar la función sum para que pueda ser utilizada en otros archivos
 }

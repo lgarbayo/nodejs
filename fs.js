@@ -24,12 +24,12 @@ fs.readFile('./file copy.txt', 'utf-8', (err, textCopy) => {
 })
 */
 
-console.log("Reading file: ")
+console.log('Reading file: ')
 fs.readFile('./file.txt', 'utf-8')
-    .then((text) => console.log(text))
-    .catch((err) => console.log(err))
+  .then((text) => console.log(text))
+  .catch((err) => console.log(err))
 
-console.log("Reading file copy: ")
+console.log('Reading file copy: ')
 fs.readFile('./file copy.txt', 'utf-8')
-    .then((textCopy) => console.log(textCopy))
-    .catch((err) => console.log(err))
+  .then((textCopy) => console.log(textCopy))
+  .catch((err) => console.log(err))
