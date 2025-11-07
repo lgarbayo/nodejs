@@ -1,11 +1,17 @@
 const fs = require('node:fs')
 
 console.log("Reading file synchronously: ")
-fs.readFileSync('./file.txt', 'utf-8', (err, text) => {
+try {
+    const text = fs.readFileSync('./file.txt', 'utf-8')
     console.log(text)
-})
+} catch (err) {
+    console.error(err)
+}
 
 console.log("Reading file copy synchronously: ")
-fs.readFileSync('./file copy.txt', 'utf-8', (err, textCopy) => {
+try {
+    const textCopy = fs.readFileSync('./file copy.txt', 'utf-8')
     console.log(textCopy)
-})
+} catch (err) {
+    console.error(err)
+}
